@@ -24,6 +24,7 @@ namespace Курсовая_работа
         //кнопка
         private void button1_Click(object sender, EventArgs e)
         {
+            //метод среднего скользящего
             if (radioButton1.Checked)
             {
                 MovingAverage f = new MovingAverage();
